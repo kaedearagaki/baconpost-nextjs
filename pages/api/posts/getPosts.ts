@@ -13,7 +13,7 @@ export default async function handler(
             include: {
                 user: true,
                 Comment: true,
-                hearts: true,
+                Heart: true,
             },
             orderBy: {
                 createdAt: "desc",
