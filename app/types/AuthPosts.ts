@@ -4,11 +4,11 @@ export type AuthPosts = {
     image: string
     name: string
     Post: {
-        createdAt: string
+        createdAt?: string
         id: string
         title: string
         Comment?: {
-            createdAt: string 
+            createdAt?: string 
             id: string 
             postId: string 
             title: string 
